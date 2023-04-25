@@ -1,3 +1,27 @@
+macro_cmd+shift+`: macro_cmd+shift+`{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+`";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp RSHIFT>, <&kp GRAVE>;
+};
+macro_cmd+`: macro_cmd+`{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+`";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp GRAVE>;
+};
+macro_cmd+shift+tab: macro_cmd+shift+tab{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp RIGHT_SHIFT>, <&kp TAB>;
+};
+macro_cmd+tab: macro_cmd+tab{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
+};
 macro_cmd+shift: macro_cmd+shift{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift";
