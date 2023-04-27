@@ -1,64 +1,64 @@
-macro_opt+shift+right: macro_opt+shift+right{
+macro_opt_shift_right: macro_opt_shift_right{
 compatible = "zmk,behavior-macro";
 label = "macro_opt+shift+right";
 #binding-cells = <0>;
 bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp RIGHT>;
 };
-macro_opt+shift+left: macro_opt+shift+left{
+macro_opt_shift_left: macro_opt_shift_left{
 compatible = "zmk,behavior-macro";
 label = "macro_opt+shift+left";
 #binding-cells = <0>;
 bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LEFT>;
 };
-macro_cmd+shift+right: macro_cmd+shift+right{
+macro_cmd_shift_right: macro_cmd_shift_right{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+right";
 #binding-cells = <0>;
 bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp RIGHT>;
 };
-macro_cmd+shift+left: macro_cmd+shift+left{
+macro_cmd_shift_left: macro_cmd_shift_left{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+left";
 #binding-cells = <0>;
 bindings = <&kp LCMD>, <&kp LEFT_SHIFT>, <&kp LEFT>;
 };
-macro_cmd+shift+down: macro_cmd+shift+down{
+macro_cmd_shift_down: macro_cmd_shift_down{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+down";
 #binding-cells = <0>;
 bindings = <&kp LCMD>, <&kp LEFT_SHIFT>, <&kp DOWN>;
 };
-macro_cmd+shift+up: macro_cmd+shift+up{
+macro_cmd_shift_up: macro_cmd_shift_up{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+up";
 #binding-cells = <0>;
 bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp UP>;
 };
-macro_cmd+shift+`: macro_cmd+shift+`{
+macro_switch_window: macro_switch_window{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+`";
 #binding-cells = <0>;
 bindings = <&kp LEFT_COMMAND>, <&kp RSHIFT>, <&kp GRAVE>;
 };
-macro_cmd+`: macro_cmd+`{
+macro_swith_app: macro_swith_app{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+`";
 #binding-cells = <0>;
 bindings = <&kp LEFT_COMMAND>, <&kp GRAVE>;
 };
-macro_cmd+shift+tab: macro_cmd+shift+tab{
+macro_cmd_shift_tab: macro_cmd_shift_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+tab";
 #binding-cells = <0>;
 bindings = <&kp LEFT_COMMAND>, <&kp RIGHT_SHIFT>, <&kp TAB>;
 };
-macro_cmd+tab: macro_cmd+tab{
+macro_cmd_tab: macro_cmd_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+tab";
 #binding-cells = <0>;
 bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
 };
-macro_cmd+shift: macro_cmd+shift{
+macro_cmd_shift: macro_cmd_shift{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift";
 #binding-cells = <0>;
