@@ -1,3 +1,39 @@
+macro_opt+shift+right: macro_opt+shift+right{
+compatible = "zmk,behavior-macro";
+label = "macro_opt+shift+right";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp RIGHT>;
+};
+macro_opt+shift+left: macro_opt+shift+left{
+compatible = "zmk,behavior-macro";
+label = "macro_opt+shift+left";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LEFT>;
+};
+macro_cmd+shift+right: macro_cmd+shift+right{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+right";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp RIGHT>;
+};
+macro_cmd+shift+left: macro_cmd+shift+left{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+left";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LEFT_SHIFT>, <&kp LEFT>;
+};
+macro_cmd+shift+down: macro_cmd+shift+down{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+down";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LEFT_SHIFT>, <&kp DOWN>;
+};
+macro_cmd+shift+up: macro_cmd+shift+up{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd+shift+up";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp UP>;
+};
 macro_cmd+shift+`: macro_cmd+shift+`{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd+shift+`";
