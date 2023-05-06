@@ -82,7 +82,7 @@ compatible = "zmk,behavior-macro";
 label = "macro_big_up";
 #binding-cells = <0>;
 bindings
-  = =<&kp UP &kp UP &kp UP &kp UP &kp UP>;
+  =<&kp UP &kp UP &kp UP &kp UP &kp UP>;
 };
 macro_cmd_shift: macro_cmd_shift{
 compatible = "zmk,behavior-macro";
